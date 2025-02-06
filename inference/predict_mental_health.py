@@ -47,5 +47,5 @@ if __name__ == "__main__":
         'mental_vs_physical': 'Yes',
         'obs_consequence': 'No'
     }
-    result1 = predict_mental_health(input_data)
+    result = predict_mental_health(input_data)
     print(result)
